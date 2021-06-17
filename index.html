@@ -1,48 +1,222 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tuto Academic | Inicio</title>
-    <link rel="icon" href="img/tutoAcademicLogo.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/icons/bag-alt.svg">
+    <title>Mi CV</title>
 </head>
 <body>
+    <img class="mi-foto" src="img/mi-foto.jpg" alt="Esta es mi foto">
     <header>
-        <img src="img/tutoAcademicLogo.png" width="300" heigth="300" alt="Este es mi logo">
-        <h1>Tuto Academic</h1>
-        <nav style="font-style: oblique; font-size: 20px;">
-            <ul type="none">
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Sobre mí</a></li>
-              <li><a href="#">Portafolio de servicios</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Agenda tu tutoría</a></li>
-              <li><a href="#">Contacto</a></li>
-              <li><a href="#"><img src="img/icons/searchIcon.png" width="75" height="75"></a></li>
-            </ul>
-        </nav>
+        <h1>Juan Camilo Mórtigo Rincón</h1>
+        <span class="contact-info"><i class="fas fa-map-marker-alt"></i> Bogotá, Colombia</span>
+        <span class="contact-info"><i class="fas fa-phone-alt"></i> (+57) 320 893 3511</span>
+        <span class="contact-info"><i class="fas fa-envelope"></i> camilomortigo@gmail.com</span>
+        <span><a class="about-me" href="sobremi.html">Más sobre mí</a></span>
+        <h2>Mi perfil</h2>
+        <p>Estudiante de desarrollo web e ingeniero mecánico cuatrilingüe, con conocimientos en modelado
+        funcional de procesos en IDEF0, modelamiento de componentes y sistemas mecánicos, implementación de las etapas del ciclo de desarrollo de software, construcción de bases de datos y diseño Front-End.
+        <br>
+        Experiencia de 6 meses en empresas del sector de gestión de activos, en el rol de proyectista, y de más de 5 años como tutor freelance.
+        <br>
+        Interesado en la planeación y ejecución de proyectos de desarrollo web y el diseño de
+        soluciones informáticas.</p>          
     </header>
-    <hr>
-    <p style="font-family: Verdana;">Este será mi primer sitio web del 2021, donde podrás acceder a la siguiente información y servicios:</p>
-    <ol type="1">
-        <li>Tutorías académicas en matemáticas, física y estadística</li>
-        <li>Manejo de AutoCAD y Autodesk Inventor para el modelado de piezas y máquinas</li>
-        <li>Desarrollo de proyectos de ingeniería mecánica y de software</li>
-        <li>Traducción de textos en español, inglés y alemán</li>
-    </ol>
-    <p style="font-family: Verdana;">A continuación se resumen los servicios prestados:</p>
-    <img src="img/servicesTutoAcademic.png">
+    <main>
+        <section>
+            <h2>Idiomas</h2>
+            <table>
+                <tr>
+                    <td class="idiom">Inglés</td>
+                    <td>
+                        <i class="fas fa-circle"></i> <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i> <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i> <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i> <i class="fas fa-circle"></i>
+                        <i class="far fa-circle"></i> <i class="far fa-circle"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="idiom">Alemán</td>
+                    <td>
+                        <i class="fas fa-circle"></i> <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i> <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i> <i class="fas fa-circle"></i>
+                        <i class="far fa-circle"></i> <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i> <i class="far fa-circle"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="idiom">Sueco</td>
+                    <td>
+                        <i class="fas fa-circle"></i> <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i> <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i> <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i> <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i> <i class="far fa-circle"></i>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Formación académica</h2>
+            <ul class="no-point">
+                <li><span class="descrip">Ingeniería mecánica.</span>
+                    <br>
+                    <span class="place">Universidad Nacional de Colombia.</span>
+                    <br>
+                    <span class="date">(2013 - 2019)</span>
+                </li>
+                <br>
+                <li><span class="descrip">Certificado en habilidades digitales de programación MisiónTIC 2022.</span>
+                    <br>
+                    <span class="place">Universidad del Norte.</span>
+                    <br>
+                    <span class="date">(septiembre - diciembre 2020)</span>                    
+                </li>
+                <br>
+                <li><span class="descrip">Certified Tech Developer.</span>
+                    <br>
+                    <span class="place">Digital House.</span>
+                    <br>  
+                    <span class="date">(mayo 2021 - HOY)</span>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Competencias</h2>
+            <article class="competences">
+                <table class="web-dev">
+                    <tr>
+                        <th colspan="2">Desarrollo web</th>
+                    </tr>
+                    <tr>
+                        <td class="skill">HTML/CSS</td>
+                        <td>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i> <i class="far fa-star"></i>
+                            <i class="far fa-star"></i> <i class="far fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="skill">SQL</td>
+                        <td>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i> <i class="far fa-star"></i>
+                            <i class="far fa-star"></i> <i class="far fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="skill">Python</td>
+                        <td>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="far fa-star"></i>
+                            <i class="far fa-star"></i> <i class="far fa-star"></i>
+                            <i class="far fa-star"></i> <i class="far fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="skill">Java</td>
+                        <td>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="far fa-star"></i>
+                            <i class="far fa-star"></i> <i class="far fa-star"></i>
+                            <i class="far fa-star"></i> <i class="far fa-star"></i>
+                        </td>
+                    </tr>
+                </table>
+                <table class="mec-eng">
+                    <tr>
+                        <th colspan="2">Ingeniería mecánica</th>
+                    </tr>
+                    <tr>
+                        <td class="skill">Autodesk Inventor</td>
+                        <td>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i> <i class="far fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="skill">AutoCAD</td>
+                        <td>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i> <i class="far fa-star"></i>
+                            <i class="far fa-star"></i> <i class="far fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="skill">Excel</td>
+                        <td>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="far fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="skill">MatLAB</td>
+                        <td>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i> <i class="far fa-star"></i>
+                        </td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <section>
+            <h2>Experiencia laboral</h2>
+            <ul class="no-point">
+                <li><span class="descrip">Tutor de matemáticas y física.</span>
+                    <br>
+                    <span class="place">Freelance.</span>
+                    <br>
+                    <span class="date">(2016 - HOY)</span>
+                </li>
+                <br>
+                <li><span class="descrip">Pasantía.</span>
+                    <br>
+                    <span class="place">Knowledge and Integration Architects (KNAR S.A.S.).</span>
+                    <br>
+                    <span class="date">(junio - diciembre 2018)</span>                    
+                </li>
+                <br>
+            </ul>
+        </section>
+    </main>
     <footer>
-        <hr>
-        <ul type="none">
-            <li style="font-size: 28px;">Redes sociales</li>
-            <br>
-            <li><img src="img/icons/whatsapp.png" width="40" height="40">(+57) 320 893 3511</li>
-            <li><img src="img/icons/facebook.png" width="40" height="40">/juancamilo.mortigo</li>
-            <li><img src="img/icons/instagram.png" width="40" height="40">@jcmortigor</li>
-            <li><img src="img/icons/linkedin.png" width="40" height="40">juan-camilo-mortigo-desarrollador-ingeniero-mecanico/</li>
-        </ul>
+        <table>
+            <tr>
+                <td>Mis redes sociales</td>
+                <td></td>
+                <td><a href="https://www.facebook.com/juancamilo.mortigo/" target="_blank"><i class="fab fa-facebook"></i></a></td>
+                <td></td>
+                <td><a href="https://www.instagram.com/jcmortigor/" target="_blank"><i class="fab fa-instagram"></i></a></td>
+                <td></td>
+                <td><a href="https://www.linkedin.com/in/juan-camilo-mortigo-desarrollador-ingeniero-mecanico/" target="_blank"><i class="fab fa-linkedin"></i></a></td>
+                <td></td>
+                <td><a href="https://github.com/JCamiloMRincon" target="_blank"><i class="fab fa-github"></i></a></td>
+                <td></td>
+            </tr>
+        </table>
     </footer>
 </body>
 </html>
