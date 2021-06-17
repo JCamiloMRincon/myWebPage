@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.mi-foto{
+    float: left;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 250px;
+}
+
+header{
+    margin-right: 10px;
+}
+
+.about-me{
+    color:rgb(0,0,255);
+    float: right;
+    text-decoration: none;
+}
+
+h1{
+    color:darkred;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.15cm;
+    text-transform: uppercase;
+}
+
+span.contact-info{
+    text-align: center;
+}
+
+section{
+    background-color: rgba(169,169,169,0.1);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.1cm;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+table{
+    margin:0 auto;
+    text-align: center;
+}
+
+table td.idiom,table td.skill{
+    text-align: left;
+    width:25%;
+}
+
+.fas.fa-circle, .far.fa-circle{
+    color:darkred;
+}
+
+article.competences{
+    display: flex;
+}
+
+section article table tr th{
+    font-weight: bold;
+    text-align: center;
+}
+
+.fas.fa-star, .far.fa-star{
+    color:gray;
+}
+
+.no-point{
+    list-style: none;
+}
+
+.descrip{
+    font-weight: bold;
+}
+
+.place{
+    font-style: italic;
+}
+
+.date{
+    color:gray;
+}
+
+footer{
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+}
+
+footer a{
+    color:white;
+}
