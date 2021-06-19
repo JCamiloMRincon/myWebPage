@@ -6,10 +6,17 @@ body{
 
 .mi-foto{
     float: left;
+<<<<<<< HEAD
     height: 220px;
     margin-left: 10px;
     margin-right: 20px;
     width: 180px;
+=======
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 250px;
+>>>>>>> 6a5b541ee4a124b1bed3c76f6f940e411fdbe41a
 }
 
 header{
